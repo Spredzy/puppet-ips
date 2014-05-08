@@ -1,0 +1,8 @@
+fixtures:
+  repositories:
+    "stdlib": "git://github.com/puppetlabs/puppetlabs-stdlib.git"
+      ref: '3.2.1'
+    "apache": "git://github.com/puppetlabs/puppetlabs-apache.git"
+      reef: '1.0.1'
+  symlinks:
+    "ips": "#{source_dir}"
